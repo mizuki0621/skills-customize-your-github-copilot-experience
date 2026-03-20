@@ -1,19 +1,50 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Practice core Python programming skills by building a simple Hangman-style game. In this assignment, you will work with strings, loops, conditionals, lists, and user input to create an interactive program.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Set Up the Hangman Game
 
-## ✅ Must Have's
+#### Description
+Create the basic structure of a Hangman game. Your program should choose a word from a predefined list and display the hidden word using underscores so the player can begin guessing.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Store several possible words in a predefined list.
+- Randomly select one word for the game.
+- Display the word as underscores, with one underscore for each letter.
+- Ask the player to enter a letter guess.
+- Keep track of the letters the player has already guessed.
+
+Example display:
+
+```text
+Word: _ _ _ _ _
+Guess a letter: a
+```
+
+### 🛠️ Complete the Game Logic
+
+#### Description
+Finish the game so the player can keep guessing letters until they either reveal the full word or run out of incorrect guesses.
+
+#### Requirements
+Completed program should:
+
+- Reveal correctly guessed letters in the correct positions.
+- Decrease the number of remaining attempts when the player guesses incorrectly.
+- Show the current progress after each guess.
+- End the game with a win message if the player guesses the full word.
+- End the game with a lose message if the player uses all attempts.
+
+Example outcome:
+
+```text
+Word: p y t h o n
+You win!
+```
